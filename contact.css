@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* outline: 1px solid red;  */
+}
+
+.navbar{
+    height: 60px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   cursor: pointer;
+   top:0;
+    
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.logo img{
+    width: 33%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.nav-list li{
+    width: 10%;
+    text-align: center;
+    align-content: center;
+    list-style: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+ text-decoration: none;
+ color: grey;
+ font-size: large;
+}
+
+.rightNav{
+    text-align: center;
+    width: 50%;
+    align-content: center;
+}
+#search{
+ border-radius: 8px;
+ padding: 5px;
+ font-size: 17px;
+ border: 2px solid grey;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(img/tower.jpg);
+    background-size: cover;
+   background-blend-mode: darken; 
+}
+.btn-Sm{
+    padding: 4px 1px;
+    vertical-align: middle;
+     border-radius: 8px ;
+    margin: 7px 3px;
+    border: 2px solid white;
+    font-size: 13px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-Sm:active{
+     padding: 4px 1px;
+    vertical-align: middle;
+     border-radius: 8px ;
+    margin: 7px 3px;
+    border: 2px solid white;
+    font-size: 13px;
+    background: rgba(0, 0, 0, 0.7) url(img/tower.jpg);
+    color: white;
+    cursor: pointer;
+}
+.contact{
+    background-color: #f6f5f4;
+    height: 90vh;
+}
+.textCenter{
+    text-align: center;
+    padding:3% 8% ;
+    padding-top: 20px;
+}
+.boundry{
+    border: 2px solid black;
+    margin: 3% 7%;
+    padding: 0% 5%;
+    padding-bottom: 5%;
+    border-radius: 48px;
+}
+
+
+.form{
+  max-width: 1000px;
+    margin: 2% 10%;
+}
+.form-input{
+    margin: 1% 0%;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    padding: 5px 2px;
+
+}
+.btn{
+    padding: 8px 20px;
+    border-radius: 8px ;
+    margin: 25px 6px;
+    border: 2px solid white;
+    font-size: 18px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+.btnDark{
+    border:2px solid black;
+    color: black;
+    
+    
+}
+.btnDark:hover{
+    font-size: larger;
+}
+.btnDark:active{
+    background: rgba(0, 0, 0, 0.7) url(img/tower.jpg);
+    background-blend-mode:darken ;
+    background-size: cover;
+    color: white;
+}
+.text-footer{
+    text-align: center;
+    padding:1% 0% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
