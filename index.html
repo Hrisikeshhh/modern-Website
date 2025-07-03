@@ -5,115 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>webSite</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+
+</style>
 </head>
 <body>
-    <nav class="navbar background">
-        <ul class="nav-list">
-            <div class="logo"><img src="logo.png"></div>
-            <li><a href="#" id="Home">Home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="service.html" >service</a></li>
-            <li><a href="#contact" >contact</a></li>
-        </ul>
-
-        <div class="rightNav">
-            <input type="text" placeholder="search" id="search">
-            <button class="btn-Sm">Search</button>
-        </div>
-    </nav>
-
-
-    <section  class="background firstSection" >
-        <div class="box-main">
-       <div class="firstHalf">
-        <p class="text-Big" style="width: 120%;"><span id="element"></span></p>
-        <p class="text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-             Soluta, ad molestiae assumenda nam Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
-              quis rem quidem aperiam odio obcaecati laborum nesciunt 
-             nulla maxime esse enim cum expedita, autem et doloribus facilis quod at error?</p>
-             <div class="buttons">
-                <button class="btn" >subscribe</button>
-                <button class="btn">watch video!</button>
-             </div>
-       </div>
-       <div class="secondHalf">
-        <img src="logo.png">
-       </div>
-
-        </div>
-    </section>
-    <div class="boundry">
-    <section class="secRight" id="about">
-     <div class="para">
-    <p class="text-Big">The end of your search if here</p>
-     <p class="text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates asperiores, veritatis odio earum veniam a error iste quia id aspernatur eos odit obcaecati cupiditate totam blanditiis neque beatae facere rem.
-     Tenetur magnam at libero nihil natus maxime fugiat voluptatem, asperiores, nesciunt aut cumque perferendis voluptatibus iusto cum quam, quisquam debitis quaerat obcaecati fugit tempore commodi neque eius! Earum, quasi facilis!
-     Nobis molestiae optio itaque atque vel nostrum vero deserunt rem.uri aut dolorem repellat iusto.</p>
-    </div>
-      <div class="thumbnail">
-        <img src="img/apple.png" alt="laptop-img" class="imgFluid">
-        </div>
+  <nav>
+    <div class="leftNav">
+      <div id="outer-logo">
+      <div id="logo"></div>
       </div>
-    </section>
-
-    
-    <div class="boundry">
-    <section class="secRight left">
-     <div class="para">
-    <p class="text-Big">Transforming education in India</p>
-     <p class="text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates asperiores, veritatis odio earum veniam a error iste quia id aspernatur eos odit obcaecati cupiditate totam blanditiis neque beatae facere rem.
-     Tenetur magnam at libero nihil natus maxime fugiat voluptatem, asperiores, nesciunt aut cumque perferendis voluptatibus iusto cum quam, quisquam debitis quaerat obcaecati fugit tempore commodi neque eius! Earum, quasi facilis!
-     Nobis molestiae optio itaque atque vel nostrum vero deserunt rem. Beatae tenetur sequi molestiae? Mollitia delectus, illo similique consectetur molestias quas, blanditiis ipsum sunt ab modi qui cum adipisci numquam.
-     Assumenda, hic neque. Veritatis provident nam dolorum vero porro distinctio necessitatibus sed repellat perspiciatis aut? Asperiores, non consequuntur? Vel itaque ipsam rem veniam, amet provident explicabo natus optio! Hic, aliquam.
-     Quis eveniet nam repellendus corrupti, nisi explicabo itaque omnis quasi fugit alias nemo excepturi aut dolorem repellat iusto perspiciatis ipsum fugiat dolore dignissimos nostrum ipsa. Nisi ipsum repellat soluta suscipit.</p>
     </div>
-      <div class="thumbnail">
-        <img src="logo.png" alt="laptop-img" class="imgFluid">
-        </div>
-      </div>
-
-    
-
-    </section>
-     <div class="boundry">
-    <section class="secRight">
-     <div class="para">
-    <p class="text-Big">Lets Grow Together</p>
-     <p class="text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates asperiores, veritatis odio earum veniam a error iste quia id aspernatur eos odit obcaecati cupiditate totam blanditiis neque beatae facere rem.
-     Tenetur magnam at libero nihil natus maxime fugiat voluptatem, asperiores, nesciunt aut cumque perferendis voluptatibus iusto cum quam, quisquam debitis quaerat obcaecati fugit tempore commodi neque eius! Earum, quasi facilis!
-     Nobis molestiae optio itaque atque vel nostrum vero deserunt rem. Beatae tenetur sequi molestiae? Mollitia delectus, illo similique consectetur molestias quas, blanditiis ipsum sunt ab modi qui cum adipisci numquam.
-     Assumenda, hic neque. Veritatis provident nam dolorum vero porro distinctio necessitatibus sed repellat perspiciatis aut? Asperiores, non consequuntur? Vel itaque ipsam rem veniam, amet provident explicabo natus optio! Hic, aliquam.
-     Quis eveniet nam repellendus corrupti, nisi explicabo itaque omnis quasi fugit alias nemo excepturi aut dolorem repellat iusto perspiciatis ipsum fugiat dolore dignissimos nostrum ipsa. Nisi ipsum repellat soluta suscipit.</p>
+    <div class="rightNav">
+      <ul class="navItems">
+         <div id="closeIcon"> <i class="fa-solid fa-circle-xmark" id="close"></i></div>
+         <li class="items"><a href="index.html">Home</a></li>
+         <li class="items"><a href="#about">about</a></li>
+         <li class="items"><a href="#contact">Contact</a></li>
+      </ul>
+      <i class="fa-solid fa-bars-staggered" id="bar"></i>
     </div>
-      <div class="thumbnail">
-        <img src="img/app development.webp" alt="lapto" class="imgFluid">
-        </div>
-      </div>
-    </section>
+  </nav>  
+
+
   
-   <section class="contact" id="contact">
-       <h2 class="textCenter">Contact us</h2>
-    
-       <div class="form">
-      <input type="text" class="form-input" name="name" id="name" placeholder="Enter your name">
-      <input type="text" class="form-input" name="phone" id="phone" placeholder="enter your phone">
-      <input type="text" class="form-input" name="email" id="email" placeholder="Enter your email">
-        <textarea  class="form-input" name="text" id="text" cols="38" rows="10" placeholder="Elaborate your concern"></textarea>
-          <button class="btn btnDark">Submit</button>
-       </div>
-   </section>
 
-   <footer class="background">
-    <p class="text-footer">
-      copyright %copy; 2025 - all rights reserved
-    </p>
-   </footer>
-   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-         var typed = new Typed('#element', {
-      strings: ['The future of education is here'],
-      typeSpeed: 50,
-    });
+  <section class="firstSec">
+       <div class="inputs">
+           <input type="text" placeholder="search" id="search-bar">
+           <button id="button-sm">Search</button>
+       </div>
+       <div class="main">
+        <div class="left">
+          <h1> <span id="element"></span></h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim perferendis, blanditiis, corporis sed mollitia laborum odit numquam recusandae dolorum id repellat accusamus dolor fugiat illum ipsa. Est eveniet voluptatibus libero.
+          Omnis a doloremque voluptate adipisci eius suscipit quisquam veniam harum. Modi quibusdam saepe odio nulla debitis fugit nihil alias! Obcaecati aspernatur porro sequi ex distinctio illum labore praesentium, ratione fugit!
+          </p>
+          <div id="button">
+            <button class="btn-main">subscribe</button>
+            <button class="btn-main">watch video!</button>
+          </div>
+        </div>
+        <div class="right">
+          <div class="rightLogo">
+            <img src="logo.png" alt="logo"></div>
+        </div>
+       </div>
+  </section>
+
+  <section class="second-sec" id="about">
+        <div class="box">
+          <div class="leftBox">
+            <h1>The end of your search if here</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente id asperiores
+               dolorum, accusantium eligendi nobis perspiciatis neque quam minima deleniti cum rem perferendis aliquam quibusdam similique temporibus at ipsam alias?
+            Sapiente quidem aut eum non possimus distinctio rerum dolorum laborum dolorem magnam nam, dicta ullam vitae quia iure eveniet porro incidunt molestiae autem ad. At pariatur sit ad impedit numquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur cum maxime odio earum rerum incidunt quos, necessitatibus eligendi iure sapiente delectus sunt neque, totam exercitationem reiciendis nobis architecto qui accusamus.</p>
+          </div>
+          <div class="rightBox">
+            <div class="right-img">
+                  <img src="img/app development.webp" alt="img">
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="box reverse">
+          <div class="leftBox">
+            <h1>Transforming education in India</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam architecto non nisi magni hic deserunt dolorem eaque praesentium quasi animi, doloremque provident earum corporis voluptate incidunt obcaecati. Omnis, commodi repellat!
+            Unde, reiciendis consequatur dolore laborum repudiandae sed velit porro dicta cumque repellat blanditiis eius repellendus voluptates pariatur? Consequuntur sint dicta sed est? Quaerat distinctio totam modi, commodi nam eveniet quasi?</p>
+          </div>
+          <div class="rightBox">
+            <div class="right-img">
+                  <img src="img/apple.png" alt="img">
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="box">
+          <div class="leftBox extra-size">
+            <h1>Lets Grow together</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est officiis eveniet aperiam, eligendi, sint totam qui laudantium expedita quae nobis labore natus doloremque. Odio corporis beatae incidunt a quam. Voluptas.
+            Vitae inventore eum iure, ipsa saepe itaque eveniet voluptatem impedit nostrum modi quod cumque tempore alias, quidem aliquam hic possimus molestias fugit aspernatur? Ipsa, esse mollitia! Est, magni laborum! Similique.
+            Nam odit impedit architecto aliquid praesentium optio, dolorem quae vero sunt blanditiis illum illo laboriosam, animi beatae veritatis minus repellendus dicta doloremque accusantium? Suscipit molestiae modi iste deleniti esse reiciendis.
+            Nesciunt aliquam praesentium suscipit, nobis architecto quasi reiciendis quidem nihil hic soluta nostrum nisi consectetur inventore sed in necessitatibus quibusdam quod debitis atque veritatis? Unde quidem porro praesentium error provident?</p>
+          </div>
+          <div class="rightBox">
+            <div class="right-img">
+              <img src="logo.png" alt="img">  
+            </div>
+          </div>
+        </div>
+  </section>
+
+
+  <section class="third-sec" id="contact">
+         <h1>Contact us</h1>
+      <div class="inputArea">
+         <input type="text" placeholder="Enter your name">
+         <input type="text" placeholder="Enter your phone">
+         <input type="text" placeholder="Enter your Email">
+
+          <textarea name="msg" id="text" cols="60" rows="10" placeholder="elaborate your concern">
+          </textarea>
+      </div>
+
+       <button class="submitBtn">Submit</button>
+    
+  </section>
+
+
+
+  <footer>
+    <div>
+      <p>copyright <i class="fa-solid fa-copyright"></i> future of education | All rights reserved</p>
+    </div>
+  </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js">
+        
     </script>
+    
 </body>
 </html>
